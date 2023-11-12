@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AIR"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tejas/Desktop/AIR-master/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tejas/Desktop/AIR-master/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tejas/Desktop/AIR-master/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AIR">
+				<Option output="/home/tejas/Desktop/AIR-master/Release/AIR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tejas/Desktop/AIR-master/include"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/include/json"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/batching"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/collector"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/communication"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/configuration"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/connector"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/dataflow"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/function"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/input"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/output"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/partitioning"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/relational"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/serialization"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/usecases"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/winagg"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/yahoo"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/yahoo_m"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 AIR"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AIR/fast">
+				<Option output="/home/tejas/Desktop/AIR-master/Release/AIR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tejas/Desktop/AIR-master/include"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/include/json"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/batching"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/collector"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/communication"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/configuration"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/connector"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/dataflow"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/function"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/input"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/output"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/partitioning"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/relational"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/serialization"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/usecases"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/winagg"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/yahoo"/>
+					<Add directory="/home/tejas/Desktop/AIR-master/src/yahoo_m"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 AIR/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tejas/Desktop/AIR-master/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/batching/Map.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/batching/Map.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/batching/Reduce.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/batching/Reduce.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/collector/BinCollector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/collector/BinCollector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/collector/RowCollector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/collector/RowCollector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/communication/Message.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/communication/Message.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/communication/Window.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/communication/Window.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/configuration/HashConfig.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/connector/BinConnector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/connector/BinConnector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/connector/PartRowConnector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/connector/PartRowConnector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/connector/RowConnector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/connector/RowConnector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/dataflow/Dataflow.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/dataflow/Dataflow.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/dataflow/Vertex.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/dataflow/Vertex.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/function/Function.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/function/Function.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/function/SquareFunction.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/function/SquareFunction.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/function/SumFunction.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/function/SumFunction.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/input/FileInput.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/input/FileInput.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/input/Input.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/input/Input.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/main/main.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/output/FileOutput.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/output/FileOutput.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/output/Output.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/output/Output.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/partitioning/Hash.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/partitioning/Hash.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/partitioning/PairPartition.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/partitioning/Partition.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/relational/Aggr.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/relational/Aggr.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/relational/Attribute.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/relational/Attribute.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/relational/Cond.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/relational/Cond.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/relational/Relation.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/relational/Relation.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/relational/Schema.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/relational/Schema.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/relational/SortAggregation.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/relational/SortAggregation.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/relational/SortMergeJoin.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/relational/SortMergeJoin.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/serialization/Serialization.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/serialization/Serialization.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/usecases/MapReduce.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/usecases/MapReduce.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/usecases/StreamingTest.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/usecases/StreamingTest.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/usecases/TPCH.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/usecases/TPCH.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/usecases/WinAgg.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/usecases/WinAgg.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/usecases/YSB.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/usecases/YSB.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/usecases/YSB_m.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/usecases/YSB_m.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/winagg/EventSharder.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/winagg/EventSharder.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/winagg/WindowedCounter.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/winagg/WindowedCounter.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo/EventCollector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo/EventCollector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo/EventFilter.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo/EventFilter.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo/EventGenerator.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo/EventGenerator.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo/FullAggregator.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo/FullAggregator.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo/PartialAggregator.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo/PartialAggregator.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo/SHJoin.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo/SHJoin.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo_m/EventFilter_m.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo_m/EventFilter_m.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo_m/FullAggregator_m.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo_m/FullAggregator_m.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo_m/WinJoinYSB_m.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/src/yahoo_m/WinJoinYSB_m.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/tejas/Desktop/AIR-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
